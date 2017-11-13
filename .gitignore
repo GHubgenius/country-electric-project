@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+.editorconfig
+dist/
+docs/
+UI/
+.idea
+*.log.240912750

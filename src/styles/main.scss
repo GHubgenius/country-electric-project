@@ -1,0 +1,77 @@
+@import "./base/public";
+@import "./base/vars";
+@import "./base/cover";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #324057;
+}
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden
+}
+#app .container {
+	width: 1200px;
+	margin: 0px auto;
+}
+.fi-affix {
+    position: fixed;
+    z-index: 10;
+}
+.dotstate{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%!important;
+    padding: 0!important;
+    margin: 0 5px!important;
+    vertical-align: middle;
+}
+h3.pb-title{
+    font-weight: bold;
+    padding-left: 15px;
+    border-left:3px solid $color-primary;
+    text-align: left;
+}
+.el-tabs__content{
+    overflow: visible;
+}
+.pb-btn-primary{
+    padding: 8px 20px;
+    border:1px solid $color-primary;
+    background: white;
+    color: $color-primary;
+    border-radius: 4px;
+    outline: none;
+    &:hover{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+.pb-right-content{
+    background: white;
+    padding: 20px;
+    // text-align: left;
+}
+.pb-historyBack{
+    display: inline-block;
+    width: 25px;
+    height:25px;
+    border:1px solid $color-primary;
+    border-radius: 50%;
+    line-height: 25px;
+    color: $color-primary;
+    text-align: center;
+    margin-right: 10px;
+    &:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,262 @@
+$fa-css-prefix: "el-icon-fa" !default;
+$fa-family-name: "FontAwesome" !default;
+$fa-font-path: "~font-awesome/fonts" !default;
+@import '~font-awesome/scss/font-awesome.scss';
+@import "./vars";
+[class^="el-icon-fa"], [class*=" el-icon-fa"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome!important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*font*/
+// font-size0
+.f0{font-size: $px0}
+.f12{font-size: $px12}
+.f13{font-size: $px13}
+.f14{font-size: $px14}
+.f16{font-size: $px16}
+.f18{font-size: $px18}
+.f20{font-size: $px20}
+.f22{font-size: $px22}
+.f24{font-size: $px24}
+.f26{font-size: $px26}
+.f28{font-size: $px28}
+.f30{font-size: $px30}
+.f32{font-size: $px32}
+// width
+.w100{
+  width: $length100;
+};
+// line-height
+.lh0{line-height: $px0}
+.lh12{line-height: $px12}
+.lh18{line-height: $px18}
+.lh24{line-height: $px24}
+.lh32{line-height: $px32}
+.lh48{line-height: $px48}
+.lh50{line-height: $px50}
+.lh100{line-height: $px100}
+// position
+.relative {
+    position: $relative
+}
+.absolute {
+    position: $absolute
+}
+.fixed {
+    position: $fixed
+}
+
+.cur-pointer{cursor: pointer;}
+
+// margin&padding
+.mt0 {margin-top: $px0}
+.mt5 {margin-top: $px5}
+.mt10 {margin-top: $px10}
+.mt15 {margin-top: $px15}
+.mt20 {margin-top: $px20}
+.mb0 {margin-bottom: $px0}
+.mb5 {margin-bottom: $px5}
+.mb10 {margin-bottom: $px10}
+.mb15 {margin-bottom: $px15}
+.mb20 {margin-bottom: $px20}
+.ml0 {margin-left: $px0}
+.ml5 {margin-left: $px5}
+.ml10 {margin-left: $px10}
+.ml15 {margin-left: $px15}
+.ml20 {margin-left: $px20}
+.mr0 {margin-right: $px0}
+.mr5 {margin-right: $px5}
+.mr10 {margin-right: $px10}
+.mr15 {margin-right: $px15}
+.mr20 {margin-right: $px20}
+
+.pt0 {padding-top: $px0}
+.pt5 {padding-top: $px5}
+.pt10 {padding-top: $px10}
+.pt15 {padding-top: $px15}
+.pt20 {padding-top: $px20}
+.pb0 {padding-bottom: $px0}
+.pb5 {padding-bottom: $px5}
+.pb10 {padding-bottom: $px10}
+.pb15 {padding-bottom: $px15}
+.pb20 {padding-bottom: $px20}
+.pl0 {padding-left: $px0}
+.pl5 {padding-left: $px5}
+.pl10 {padding-left: $px10}
+.pl15 {padding-left: $px15}
+.pl20 {padding-left: $px20}
+.pr0 {padding-right: $px0}
+.pr5 {padding-right: $px5}
+.pr10 {padding-right: $px10}
+.pr15 {padding-right: $px15}
+.pr20 {padding-right: $px20}
+
+
+// float
+.fl {float: left;}
+.fr {float: right;}
+
+// display, mark, text-align, white-space, text-transform(大小首), 主次色调
+.dis-block{
+  display: block;
+}
+.dis-inline-block{
+  display: inline-block;
+}
+mark,.mark {
+  background-color: #fcf8e3;
+  padding: .2em;
+}
+.text-left {
+  text-align: left!important;
+}
+.text-right {
+  text-align: right!important;
+}
+.text-center {
+  text-align: center!important;
+}
+.text-justify {
+  text-align: justify!important;
+}
+.text-nowrap {
+  white-space: nowrap!important;
+}
+.text-lowercase {
+  text-transform: lowercase!important;
+}
+.text-uppercase {
+  text-transform: uppercase!important;
+}
+.text-capitalize {
+  text-transform: capitalize!important;
+}
+/* 颜色 */
+// 主色调
+.color-primary {
+  color: $color-primary!important;
+}
+// 次色调
+.color-minor {
+  color: $minor!important;
+}
+.color-Blue {
+  color: $Blue!important;
+}
+.color-Success {
+  color: $Success!important;
+}
+.color-Warning {
+  color: $Warning!important;
+}
+.color-Danger {
+  color: $Danger!important;
+}
+.color-LightBlue {
+  color: $LightBlue!important;
+}
+.color-DarkBlue {
+  color: $DarkBlue!important;
+}
+.color-Black {
+  color: $Black!important;
+}
+.color-LightBlack {
+  color: $LightBlack!important;
+}
+.color-ExtraLightBlack {
+  color: $ExtraLightBlack!important;
+}
+.color-Silver {
+  color: $Silver!important;
+}
+.color-LightSilver {
+  color: $LightSilver!important;
+}
+.color-ExtraLightSilver {
+  color: $ExtraLightSilver!important;
+}
+.color-Gray {
+  color: $Gray!important;
+}
+.color-LightGray {
+  color: $LightGray!important;
+}
+.color-ExtraLightGray {
+  color: $ExtraLightGray!important;
+}
+.color-DarkWhite {
+  color: $DarkWhite!important;
+}
+.color-White {
+  color: $White!important;
+}
+
+.bgcolor-primary {
+  background-color: $primary!important;
+}
+// 次色调
+.bgcolor-minor {
+  background-color: $minor!important;
+}
+.bgcolor-Blue {
+  background-color: $Blue!important;
+}
+.bgcolor-Success {
+  background-color: $Success!important;
+}
+.bgcolor-Warning {
+  background-color: $Warning!important;
+}
+.bgcolor-Danger {
+  background-color: $Danger!important;
+}
+.bgcolor-LightBlue {
+  background-color: $LightBlue!important;
+}
+.bgcolor-DarkBlue {
+  background-color: $DarkBlue!important;
+}
+.bgcolor-Black {
+  background-color: $Black!important;
+}
+.bgcolor-LightBlack {
+  background-color: $LightBlack!important;
+}
+.bgcolor-ExtraLightBlack {
+  background-color: $ExtraLightBlack!important;
+}
+.bgcolor-Silver {
+  background-color: $Silver!important;
+}
+.bgcolor-LightSilver {
+  background-color: $LightSilver!important;
+}
+.bgcolor-ExtraLightSilver {
+  background-color: $ExtraLightSilver!important;
+}
+.bgcolor-Gray {
+  background-color: $Gray!important;
+}
+.bgcolor-LightGray {
+  background-color: $LightGray!important;
+}
+.bgcolor-ExtraLightGray {
+  background-color: $ExtraLightGray!important;
+}
+.bgcolor-DarkWhite {
+  background-color: $DarkWhite!important;
+}
+.bgcolor-White {
+  background-color: $White!important;
+}
+.bgcolor-costom1 {
+  background-color: $costom1!important;
+}
+.bgcolor-costom2 {
+  background-color: $costom2!important;
+}
